@@ -1,8 +1,9 @@
 export const navigatio_details = [
-  { link: "home", label: "Home" },
-  { link: "laws", label: "Laws" },
-  { link: "programs", label: "Programs" },
-  { link: "civil-societies", label: "Civil Societies" },
+  { id: "home", label: "Home" },
+  { id: "laws", label: "Laws" },
+  { id: "programs", label: "Programs" },
+  { id: "civil-societies", label: "Civil Societies" },
+  { id: "vaw-c", label: "VAW-C" },
 ];
 
 export const sections_detail = [

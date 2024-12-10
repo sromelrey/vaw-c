@@ -1,13 +1,23 @@
+"use client";
 import { navigatio_details, sections_detail } from "./place-holder";
-
-import Link from "next/link";
 import * as Dialog from "@radix-ui/react-dialog";
+import { useState } from "react";
 
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  // Function to scroll to the section based on the given ID
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <header className='bg-pink-500 text-white text-center py-8'>
-        <h1 className='text-5xl shadow- font-bold'>
+        <h1 className='text-5xl font-bold'>
           Gender Equality Laws and Programs
         </h1>
         <p className='text-lg mt-2'>
@@ -16,15 +26,30 @@ export default function Home() {
       </header>
 
       <nav className='bg-gray-100 py-4'>
-        <ul className='flex justify-center space-x-8  font-semibold'>
+        {/* Mobile Hamburger Menu */}
+        <div className='sm:hidden flex justify-between items-center'>
+          <button
+            className='text-white text-3xl'
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            &#9776;
+          </button>
+        </div>
+
+        {/* Navigation links for larger screens */}
+        <ul
+          className={`flex sm:flex-wrap justify-center space-x-8 font-semibold ${
+            menuOpen ? "block" : "hidden"
+          } sm:block`}
+        >
           {navigatio_details.map((details: any) => (
-            <li>
-              <Link
-                href={details.link}
-                className='hover:opacity-50 bg-[#FDB0C0] p-3 rounded text-white'
+            <li key={details.label} className='w-full sm:w-auto'>
+              <button
+                onClick={() => scrollToSection(details.id)} // Trigger the scroll function
+                className='block hover:opacity-50 bg-[#FDB0C0] p-3 rounded text-white text-center'
               >
                 {details.label}
-              </Link>
+              </button>
             </li>
           ))}
         </ul>
@@ -50,7 +75,7 @@ export default function Home() {
             <h2 className='text-3xl font-bold text-pink-500 underline mb-8 text-center'>
               {section.title}
             </h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
               {section.details.map((data: any) =>
                 section.id === "laws" ? (
                   <a
@@ -98,7 +123,6 @@ export default function Home() {
                             </ul>
                           </Dialog.Description>
                         )}
-
                         <Dialog.Close asChild>
                           <button
                             className='absolute top-2 right-2 bg-pink-500 text-white rounded-full p-2 hover:bg-pink-600'
