@@ -36,12 +36,26 @@ export default function Home() {
           </button>
         </div>
 
-        {/* Navigation links for larger screens */}
+        {/* Navigation links for mobile */}
         <ul
-          className={`flex sm:flex-wrap justify-center space-x-8 font-semibold ${
+          className={`sm:hidden flex flex-col items-center space-y-4 font-semibold ${
             menuOpen ? "block" : "hidden"
-          } sm:block`}
+          }`}
         >
+          {navigatio_details.map((details: any) => (
+            <li key={details.label} className='w-full'>
+              <button
+                onClick={() => scrollToSection(details.id)} // Trigger the scroll function
+                className='block hover:opacity-50 bg-[#FDB0C0] p-3 rounded text-white text-center w-full'
+              >
+                {details.label}
+              </button>
+            </li>
+          ))}
+        </ul>
+
+        {/* Navigation links for larger screens */}
+        <ul className='hidden sm:flex justify-center space-x-8 font-semibold'>
           {navigatio_details.map((details: any) => (
             <li key={details.label} className='w-full sm:w-auto'>
               <button
