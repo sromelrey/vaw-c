@@ -34,8 +34,8 @@ export const sections_detail = [
         label: "Anti-Sexual Harassment Law (RA 7877)",
         link: "laws/anti-sexual-harassment-law-ra7877",
       },
-      { label: "RA 7822 (1995)", link: "laws/ra-7822-women-entrepreneurship" },
-      { label: "RA 8353 (1997)", link: "laws/ra-8353-anti-rape-law" },
+      { label: "RA 7822 (1995)", link: "laws/ra-7822-1995" },
+      { label: "RA 8353 (1997)", link: "laws/ra-8353-1997" },
     ],
   },
   {

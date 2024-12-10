@@ -142,6 +142,35 @@ export default function ConstitutionPage() {
               threatened to fire her if she reported him.
             </span>
           </p>
+          <p className='text-base text-gray-700 leading-relaxed'>
+            <strong className='font-semibold text-blue-600'>
+              How the Law Protects the Victims
+            </strong>
+            :
+            <span className='text-gray-700'>
+              With the help of local law enforcement and the Philippine National
+              Police's anti-trafficking unit, Maria's daughter was rescued. The
+              anti-human trafficking law and mechanisms established under
+              national policies, such as RA 9208 and related programs, were used
+              to investigate the traffickers and provide legal protection for
+              the victim. Maria's daughter was provided temporary shelter,
+              counseling, and medical care with the help of the DSWD and the
+              NGOs involved.
+            </span>
+          </p>
+          <p className='text-base text-gray-700 leading-relaxed'>
+            <strong className='font-semibold text-blue-600'>
+              How to resolve this issue?
+            </strong>
+            :
+            <span className='text-gray-700'>
+              Through the combination of government services, civil society
+              interventions, and law enforcement mechanisms, Maria's daughter
+              was rescued, and the traffickers were brought to justice. Maria
+              now has access to resources and legal support, while her daughter
+              is on the path to rehabilitation and recovery.
+            </span>
+          </p>
         </div>
         <div className='mt-8 p-6 bg-rose-100 border border-pink-500 rounded-lg shadow-md'>
           <h2 className='text-2xl font-semibold text-pink-600 mb-4'>

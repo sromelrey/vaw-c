@@ -1,22 +1,21 @@
 import React from "react";
 import Link from "next/link";
-import { constitutionContent } from "./place_holder";
+import { laborCodeContent } from "./place_holder";
 
-const ConstitutionPage = () => {
+const LaborCodePage = () => {
   return (
     <div className='flex justify-center items-center h-screen bg-gradient-to-r from-rose-100 to-pink-200 p-5 text-center'>
       <div className='bg-white/90 border-2 border-pink-500 rounded-lg shadow-lg max-w-lg h-[90vh] p-8 animate-fadeIn overflow-y-scroll'>
         <h1 className='text-4xl font-bold text-pink-600 mb-6 drop-shadow-md'>
-          LOCAL GOVERNMENT CODE OF 1991
+          Labor Code of the Philippines
         </h1>
         <p className='text-lg text-gray-600 leading-relaxed mb-6'>
-          The Local Government Code of 1991 (RA 7160) is a landmark legislation
-          in the Philippines that aims to decentralize government powers,
-          enhance local autonomy, and empower local government units (LGUs) to
-          address the needs of their constituents effectively.
+          The Labor Code of the Philippines governs employment, labor relations,
+          and workers' rights in the Philippines, ensuring fair treatment and
+          protecting the welfare of workers.
         </p>
 
-        {constitutionContent.map((section, index) => (
+        {laborCodeContent.map((section, index) => (
           <div
             key={index}
             className='mt-8 p-6 bg-pink-50 border border-pink-300 rounded-lg shadow-md'
@@ -30,7 +29,7 @@ const ConstitutionPage = () => {
                   <strong className='font-semibold text-blue-600'>
                     {item.key}
                   </strong>
-                  :<span className='text-gray-700'>{item.value}</span>
+                  : <span className='text-gray-700'>{item.value}</span>
                 </li>
               ))}
             </ul>
@@ -49,4 +48,4 @@ const ConstitutionPage = () => {
   );
 };
 
-export default ConstitutionPage;
+export default LaborCodePage;
