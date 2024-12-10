@@ -51,7 +51,7 @@ export default function Home() {
               {section.title}
             </h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-              {section.details.map((data) =>
+              {section.details.map((data: any) =>
                 section.id === "laws" ? (
                   <a
                     key={data.label}
@@ -84,13 +84,13 @@ export default function Home() {
                           {data.label}
                         </Dialog.Title>
                         <Dialog.Description className='mt-2 text-gray-700'>
-                          {data.description ||
+                          {data?.description ||
                             "More details about this topic will appear here."}
                         </Dialog.Description>
-                        {data.keyPoints && (
+                        {data?.keyPoints && (
                           <Dialog.Description className='mt-2 text-gray-700'>
                             <ul className='list-disc pl-6'>
-                              {data.keyPoints.map((point, index) => (
+                              {data.keyPoints.map((point: any, index: any) => (
                                 <li key={index} className='mt-1'>
                                   {point}
                                 </li>
