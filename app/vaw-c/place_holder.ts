@@ -52,4 +52,19 @@ export const vawcContent = [
       },
     ],
   },
+  {
+    title: "Case Scenario",
+    items: [
+      {
+        key: "Scenario 1",
+        value:
+          "A woman filed for a protection order after enduring years of psychological abuse from her husband, which included threats of violence and economic deprivation. With the help of local authorities and legal support, she successfully obtained a temporary protection order, safeguarding her and her children from further harm.",
+      },
+      {
+        key: "Scenario 2",
+        value:
+          "A child reported witnessing domestic violence at home. The mandatory reporting provision allowed a school counselor to alert the authorities, leading to intervention and counseling for the family.",
+      },
+    ],
+  },
 ];
