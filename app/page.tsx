@@ -170,7 +170,8 @@ export default function Home() {
 
       <footer className='bg-[#FDB0C0] text-white text-center py-4'>
         <p>
-          &copy; 2024 Gender Equality and VAWC Awareness. All rights reserved.
+          &copy; © 2024 Nathalie Daleth Avila - Promoting Gender Equality and
+          Raising Awareness about VAWC. All rights reserved.
         </p>
       </footer>
     </>
