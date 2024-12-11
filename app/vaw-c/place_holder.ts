@@ -65,6 +65,16 @@ export const vawcContent = [
         value:
           "A child reported witnessing domestic violence at home. The mandatory reporting provision allowed a school counselor to alert the authorities, leading to intervention and counseling for the family.",
       },
+      {
+        key: "How the Law Protects the Victims",
+        value: `Maria also sought the help of a lawyer provided by a women's rights organization. She filed a petition for a Temporary Protection Order (TPO) in court. The court granted the TPO, prohibiting Juan from coming near Maria, their home, and her workplace.
+ Maria and her children were referred to a crisis center, where they received counseling and temporary shelter. Social workers helped her file for financial support from Juan to cover her and the children's basic needs.`,
+      },
+      {
+        key: "How to resolve this issue",
+        value:
+          "Maria’s situation can be resolved through legal protection, support services, and intervention under laws such as the **Anti-Violence Against Women and Their Children Act (RA 9262)** in the Philippines. Maria can report the abuse to her local **barangay officials**, who are required to provide immediate assistance by issuing a **Barangay Protection Order (BPO)** to prevent further violence and restrict her husband’s access to her. She can also file a **Temporary Protection Order (TPO)** or **Permanent Protection Order (PPO)** through the court to ensure her and her children’s safety. Additionally, Maria can access counseling, shelter, and other support services through the **Department of Social Welfare and Development (DSWD)** or local women’s advocacy organizations. Legal aid groups can assist her in pursuing criminal charges against Juan, who may face imprisonment and fines for his actions. These combined measures will ensure Maria’s safety, end her dependence, and provide her with the tools needed to rebuild her life free from abuse.",
+      },
     ],
   },
 ];

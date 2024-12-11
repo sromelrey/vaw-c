@@ -163,4 +163,24 @@ export const data = [
       },
     ],
   },
+  {
+    title: "Case Scenario",
+    items: [
+      {
+        key: "Scenario 1",
+        value:
+          "Maria is a 25-year-old teacher who was attacked and raped by her coworker, Juan, in the school’s storage room. The incident happened without her consent and involved coercion and force. Maria was deeply traumatized, but with the support of a local women's advocacy group, she decided to file a formal complaint against Juan",
+      },
+      {
+        key: "How the Law Protects the Victims",
+        value:
+          "With the help of a local non-governmental organization (NGO), Maria was able to file a complaint confidentially with the police under the provisions of RA 8353. RA 8353 ensures Maria’s privacy and protection during the investigation and trial. Counseling services were provided to help her cope with the trauma and provide emotional support. Juan was found guilty of rape and sentenced to **life imprisonment** under the penalties set by RA 8353. The court’s decision not only ensured justice for Maria but also protected her dignity by minimizing public exposure during the process.",
+      },
+      {
+        key: "How to resolve this issue",
+        value:
+          "Maria’s situation can be resolved through legal action and support services under Philippine laws like the Anti-Rape Law (RA 8353) and the Safe Spaces Act (RA 11313). Maria should file a formal criminal complaint against Juan with the local police or prosecutor’s office, which will investigate the incident. The National Bureau of Investigation (NBI) or local law enforcement can gather evidence and build a case to ensure that Juan is held accountable. Simultaneously, Maria can seek protection through legal remedies, such as securing a protection order if needed. With the support of the local women’s advocacy group, Maria can access counseling and trauma support services to address the emotional and psychological effects of the attack. Legal aid organizations can help her navigate the criminal justice system and ensure her case progresses. If Juan is found guilty, he can face penalties such as imprisonment, fines, and other criminal sanctions under the Anti-Rape Law. These combined efforts will provide Maria with justice, safety, and the resources needed to heal and rebuild her life.",
+      },
+    ],
+  },
 ];
