@@ -104,6 +104,19 @@ export default function Home() {
                       Learn more about {data.label}.
                     </p>
                   </a>
+                ) : section.id === "vaw-c" ? (
+                  <a
+                    key={data.label}
+                    href={data.link}
+                    className='block col-span-3 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 border border-gray-200 hover:border-pink-500'
+                  >
+                    <h3 className='text-lg font-semibold text-blue-600 hover:text-pink-500 transition-colors'>
+                      {data.label}
+                    </h3>
+                    <p className='mt-2 text-sm text-gray-600'>
+                      Learn more about {data.label}.
+                    </p>
+                  </a>
                 ) : (
                   <Dialog.Root key={data.label}>
                     <Dialog.Trigger asChild>

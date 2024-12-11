@@ -143,24 +143,9 @@ export const sections_detail = [
     id: "vaw-c",
     details: [
       {
-        link: "The 1987 Constitution.htm",
-        label: "PILIPINA",
-      },
-      {
-        link: "The 1987 Constitution.htm",
-        label: "GABRIELA",
-      },
-      {
-        link: "The 1987 Constitution.htm",
-        label: "UKP-Network of Women in Politics",
-      },
-      {
-        link: "The 1987 Constitution.htm",
-        label: "KILOS KABARO",
-      },
-      {
-        link: "The 1987 Constitution.htm",
-        label: "SIBOL Legislative",
+        link: "vaw-c",
+        label:
+          "Violence Against Women and Their Children Act of 2004 (RA 9262)",
       },
     ],
   },

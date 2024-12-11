@@ -1,141 +1,110 @@
 export const data = [
   {
-    title: "Summary",
+    title: "Objectives of RA 8353 (1997)",
     items: [
       {
-        key: "Anti-Sexual Harassment Law (RA 7877)",
+        key: "Strengthen Legal Protections for Victims",
         value:
-          "The Republic Act No. 7877, or the Anti-Sexual Harassment Act of 1995, was enacted to combat and prevent acts of sexual harassment in the workplace, educational settings, and other institutions. It seeks to create safe environments, free from harassment, and to protect the rights of individuals, particularly women, from gender-based violence and exploitation.",
+          "Ensure that victims of rape are protected and have access to justice.",
+      },
+      {
+        key: "Broaden the Definition of Rape",
+        value:
+          "RA 8353 expanded the legal definition of rape to include a variety of acts beyond traditional penetration, addressing different forms of sexual violence.",
+      },
+      {
+        key: "Ensure Accountability for Perpetrators",
+        value:
+          "Establish stricter penalties to deter individuals from committing acts of sexual violence.",
+      },
+      {
+        key: "Support Victims of Rape",
+        value:
+          "Provide support mechanisms, including medical, psychological, and legal assistance for victims.",
+      },
+      {
+        key: "Promote Gender Equality and Eliminate Impunity",
+        value:
+          "Address impunity and ensure justice is fairly served to support gender equality and women’s rights.",
       },
     ],
   },
   {
-    title: "Objectives of RA 7877",
+    title: "Key Provisions of RA 8353",
     items: [
       {
-        key: "Prevent Sexual Harassment",
+        key: "Expanded Definition of Rape",
         value:
-          "To establish policies and mechanisms to prevent sexual harassment in workplaces, educational institutions, and other environments.",
+          "RA 8353 broadened the definition of rape to include rape by sexual assault, marital rape, and rape of a minor.",
       },
       {
-        key: "Protect Victims' Rights",
+        key: "Stricter Penalties",
         value:
-          "To ensure the legal protection of individuals subjected to sexual harassment.",
+          "The law imposes harsher penalties, including life imprisonment or the death penalty in certain cases.",
       },
       {
-        key: "Promote Gender Equality",
+        key: "Victim Support",
         value:
-          "To foster a workplace and educational culture that values gender equality, dignity, and respect.",
+          "RA 8353 mandates support for victims, including medical, psychological, and legal assistance.",
       },
       {
-        key: "Establish Clear Reporting Mechanisms",
+        key: "Legal Processes",
         value:
-          "To create accessible processes for victims to report cases of harassment.",
+          "The law ensures faster access to justice and protects victims during the judicial process.",
       },
       {
-        key: "Hold Perpetrators Accountable",
+        key: "Prevention Programs",
         value:
-          "To impose appropriate penalties on individuals found guilty of committing acts of sexual harassment.",
+          "RA 8353 promotes education and community programs to prevent sexual violence.",
+      },
+      {
+        key: "Protection for Victims and Witnesses",
+        value:
+          "The law provides protections for victims and witnesses to prevent intimidation or harm during trials.",
       },
     ],
   },
   {
-    title: "Key Provisions of RA 7877",
+    title: "Penalties under RA 8353",
     items: [
       {
-        key: "Definition of Sexual Harassment",
+        key: "Death Penalty",
         value:
-          "RA 7877 defines sexual harassment as unwelcome sexual advances, requests for sexual favors, or other verbal or physical conduct of a sexual nature that affects the victim’s dignity, creating an intimidating, hostile, or offensive environment.",
+          "For aggravated rape or cases involving torture or multiple victims.",
       },
       {
-        key: "Workplace Coverage",
-        value:
-          "The law applies to all workplaces, regardless of sector, and identifies sexual harassment occurring between employers, employees, clients, or other parties.",
+        key: "Reclusion Perpetua (Life Imprisonment)",
+        value: "For cases of rape that do not meet aggravated conditions.",
       },
       {
-        key: "Educational Institutions Coverage",
+        key: "Fines and Restitution",
         value:
-          "The law extends protection to harassment occurring in educational institutions, such as schools, colleges, and universities.",
+          "Offenders may be required to pay fines and restitution to the victims.",
       },
       {
-        key: "Obligations of Employers and School Administrators",
+        key: "Additional Consequences",
         value:
-          "Employers and school administrators must establish policies that strictly prohibit sexual harassment, create grievance mechanisms, and conduct regular training.",
-      },
-      {
-        key: "Complaint Mechanisms",
-        value:
-          "Victims can lodge complaints with employers, school administrators, or designated bodies, and these must be handled confidentially.",
-      },
-      {
-        key: "Victim Protection and Support",
-        value:
-          "The law ensures that victims are protected from retaliation during and after the complaint process.",
-      },
-      {
-        key: "Penalties for Violations",
-        value:
-          "Offenders may face criminal liability, including imprisonment and fines.",
+          "Perpetrators may face loss of civil rights in certain aggravated crimes.",
       },
     ],
   },
   {
-    title: "Penalties Under RA 7877",
+    title: "Why RA 8353 is Important",
     items: [
       {
-        key: "Criminal Penalties",
+        key: "Protection of Women and Children",
         value:
-          "Perpetrators are subject to imprisonment, ranging from six months to six years, depending on the severity of the act.",
+          "RA 8353 is essential in protecting women and children from sexual violence and exploitation.",
       },
       {
-        key: "Fines",
+        key: "Victim Support",
         value:
-          "A monetary fine may be imposed on the perpetrator as part of the penalty.",
+          "The law offers necessary support systems, including legal, medical, and psychological aid for victims.",
       },
       {
-        key: "Administrative Sanctions",
+        key: "Accountability for Perpetrators",
         value:
-          "Employers or school administrators who fail to comply with the law's provisions can face administrative penalties.",
-      },
-      {
-        key: "Civil Liability",
-        value:
-          "Victims may file lawsuits for damages against perpetrators and institutions that fail to uphold their obligations.",
-      },
-    ],
-  },
-  {
-    title: "Why the Law is Important in Protecting Women and Children",
-    items: [
-      {
-        key: "Importance",
-        value:
-          "RA 7877 plays a crucial role in safeguarding women and children from gender-based violence and exploitation, particularly in workplaces and educational settings.",
-      },
-    ],
-  },
-  {
-    title: "Case Scenario",
-    items: [
-      {
-        key: "Background",
-        value:
-          "Maria, a 20-year-old college student, was subjected to repeated unwanted advances by her professor, Mr. Santos, over the course of three months. Mr. Santos would often make inappropriate comments during class and private meetings, pressuring Maria to attend one-on-one meetings under the guise of mentoring.",
-      },
-      {
-        key: "How the Law Protects the Victim",
-        value:
-          "Maria reported the harassment to the university's grievance mechanism, and the university promptly investigated the complaint. Mr. Santos was found guilty and faced legal penalties, including imprisonment and fines.",
-      },
-    ],
-  },
-  {
-    title: "How to Resolve the Issue",
-    items: [
-      {
-        key: "Resolution",
-        value:
-          "Maria’s issue was resolved under RA 7877, and it was a clear violation of both the Safe Spaces Act (RA 11313) and the Anti-Sexual Harassment Act (RA 7877).",
+          "RA 8353 ensures that offenders face justice and that sexual violence is addressed effectively.",
       },
     ],
   },
@@ -143,9 +112,54 @@ export const data = [
     title: "Call to Action",
     items: [
       {
-        key: "Raise Awareness",
+        key: "Organize Community Awareness Campaigns",
         value:
-          "To effectively address sexual harassment, it is essential to raise awareness of RA 7877 in communities and ensure victims know their rights and available support services.",
+          "Host workshops, seminars, and use social media to educate the public about sexual violence prevention.",
+      },
+      {
+        key: "Conduct School-Based Programs",
+        value:
+          "Include education about consent and personal safety in school curricula.",
+      },
+      {
+        key: "Train Law Enforcement and Frontline Workers",
+        value:
+          "Provide specialized training for law enforcement and healthcare providers to support victims and understand the law.",
+      },
+      {
+        key: "Establish Safe Spaces for Reporting and Support",
+        value:
+          "Create centers where victims can report incidents confidentially and access necessary support.",
+      },
+    ],
+  },
+  {
+    title: "Helplines and Resources for Victims",
+    items: [
+      {
+        key: "National Center for Victims of Crime Helpline",
+        value:
+          "Helpline Number: 1800-123-4567, provides counseling and legal advice.",
+      },
+      {
+        key: "Women's Crisis Center",
+        value:
+          "Website: www.wcc.org.ph, offers emotional support and advocacy.",
+      },
+      {
+        key: "Child Protection Helpline",
+        value:
+          "Contact Number: 1-800-234-5678, helps minors or cases of child abuse.",
+      },
+      {
+        key: "Local Police Stations or Barangay Officials",
+        value:
+          "Victims can contact their nearest law enforcement or local barangay officials for assistance.",
+      },
+      {
+        key: "NGOs like Gabriela and PCW",
+        value:
+          "These organizations educate victims and connect them to necessary services.",
       },
     ],
   },

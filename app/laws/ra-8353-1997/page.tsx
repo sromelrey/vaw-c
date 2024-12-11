@@ -7,14 +7,12 @@ export default function Page() {
     <div className='flex justify-center items-center h-screen bg-gradient-to-r from-rose-100 to-pink-200 p-5 text-center'>
       <div className='bg-white/90 border-2 border-pink-500 rounded-lg shadow-lg max-w-lg h-[90vh] p-8 animate-fadeIn overflow-y-scroll'>
         <h1 className='text-4xl font-bold text-pink-600 mb-6 drop-shadow-md'>
-          Anti-Sexual Harassment Law (RA 7877)
+          RA 8353 (Anti-Rape Law of 1997)
         </h1>
         <p className='text-lg text-gray-600 leading-relaxed mb-6'>
-          The Anti-Sexual Harassment Law (Republic Act No. 7877) of 1995 aims to
-          protect individuals from sexual harassment in workplaces, educational
-          institutions, and other environments. It ensures the safety and
-          well-being of individuals, especially women, against gender-based
-          violence and exploitation.
+          The Anti-Rape Law of 1997 (RA 8353) strengthens the legal framework
+          against sexual violence, protects victims, and ensures that
+          perpetrators are held accountable.
         </p>
 
         {data.map((section, index) => (
