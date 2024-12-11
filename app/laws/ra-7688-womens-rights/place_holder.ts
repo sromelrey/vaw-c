@@ -107,6 +107,16 @@ export const ra7688Content = [
         value:
           "The Mendoza family benefited from RA 7688's livelihood programs, enabling them to rise from poverty through skills training and sustainable agricultural projects.",
       },
+      {
+        key: "How the Law Protects the Victims",
+        value:
+          "Through RA 7688, Luis was enrolled in a **livelihood skills training program** supported by the Department of Labor and Employment (DOLE) and local agencies. He learned how to operate a sustainable, small-scale agricultural project and started raising poultry with the provided tools and training.",
+      },
+      {
+        key: "How to resolve this issue",
+        value:
+          "With the help of the programs and social support facilitated by RA 7688, the Mendoza family overcame their immediate struggle. Luis secured a steady income from his agricultural project, allowing them to meet their basic needs. The children now attend school regularly, and the family has access to health care services. ",
+      },
     ],
   },
   {
